@@ -29,6 +29,42 @@
 	font-style: normal;
 	font-display: swap;
 }
+
+@font-face {
+	font-family: 'Economica';
+	src: url('fonts/Economica-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Economica';
+	src: url('fonts/Economica-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Economica';
+	src: url('fonts/Economica-BoldItalic.woff') format('woff');
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Economica';
+	src: url('fonts/Economica-Italic.woff') format('woff');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Shrikhand';
+	src: url('fonts/Shrikhand-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
 body {
 	font-family: 'Atkinson', sans-serif;
 	margin: 0;
@@ -54,6 +90,7 @@ h3,
 h4,
 h5,
 h6 {
+	font-family: 'Shrikhand';
 	margin: 0 0 0.5rem 0;
 	color: rgb(var(--black));
 	line-height: 1.2;
