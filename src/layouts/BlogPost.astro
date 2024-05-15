@@ -5,9 +5,10 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 
+
 type Props = CollectionEntry<'blog'>['data'];
 
-const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImage, heroText="", heroPosition="50% 50%" } = Astro.props;
 ---
 
 <html lang="en">
@@ -18,22 +19,25 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 				width: calc(100% - 2em);
 				max-width: 100%;
 				margin: 0;
+				padding-top: 0
 			}
 			.hero-image {
 				width: 100%;
 			}
 			.hero-image img {
 				display: block;
+				object-fit: cover;
+				height: 20rem;
 				margin: 0 auto;
-				border-radius: 12px;
 				box-shadow: var(--box-shadow);
+				border-bottom: var(--accent) 0.5rem solid
 			}
 			.prose {
 				width: 720px;
 				max-width: calc(100% - 2em);
 				margin: auto;
 				padding: 1em;
-				color: rgb(var(--gray-dark));
+				color: rgb(var(--body-text));
 			}
 			.title {
 				margin-bottom: 1em;
@@ -46,7 +50,8 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 			}
 			.date {
 				margin-bottom: 0.5em;
-				color: rgb(var(--gray));
+				color: rgb(var(--accent-red));
+				font-family: 'Economica'
 			}
 			.last-updated-on {
 				font-style: italic;
@@ -56,11 +61,12 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 
 	<body>
 		<Header />
+		<div class="hero-image">
+			{heroImage && <img width="100%" height={510} src={heroImage} alt={heroText} style=`object-position: ${heroPosition}` />}
+		</div>
 		<main>
 			<article>
-				<div class="hero-image">
-					{heroImage && <img width={1020} height={510} src={heroImage} alt="" />}
-				</div>
+
 				<div class="prose">
 					<div class="title">
 						<div class="date">
