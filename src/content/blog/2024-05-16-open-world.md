@@ -2,10 +2,12 @@
 title: 'Building an open world game as my to-do list'
 description: 'I take gamification to the next level and start adding whole new genres.'
 pubDate: 'May 16 2024'
-heroImage: '/open-world-game.png'
+heroImage: '/blog-placeholder-3.png'
 heroPosition: "50% 0%"
-heroText: "A zoomed-in example of my system, showing 'the libraries of isacaron' and 'the cities of legion'."
+heroText: "Gradient placeholder."
 ---
+
+**Update 11/12/24: You may not be surprised to know the below system didn't stick in its original form. I basically took the philosophy and ditched the formalised system. But I think the philosophy was well-intentioned, and still carrying through to the freeform way I am approaching my life today. I have removed a couple of details from this blog that felt too personal/confessional to me.**
 
 This blog was written as a response to a challenge in Struthless' Discord. The original goal was to make an 'analogue' computer: a physical, external brain to keep track of projects and goals. My attempt certainly bends the rules of the challenge, as we are indeed using a computer-based method. But I would say we both made 'analogue computers' - just with opposite interpretations of the phrase. Struthless' board puts systematic methods and trackable goal data into a creative, physical format, while I am carrying analogue and creative approaches over to the digital world, where efficiency is typically king... albeit often at a human cost.
 
@@ -104,7 +106,7 @@ Ultimately, as I tried to tweak the system, I wound up creating a 'map', where e
 I don't think this is any surprise. It feels very natural to treat life as an open world, as something exploratory, possessing a spatial geography. And, I suppose, my real world has narrowed so dramatically thanks to the pandemic - my real-world explorations are limited almost exclusively to my city. Envisioning my life as having a metaphorical geography helped alleviate some of my grief.
 
 ##### an aside: life domains! 
-I *knew* I wanted to incorporate life domains into this system. My own are based on Rachael Stephen's [witchier implementation, the constellation system](https://www.rachaelstephen.com/constellation). (Rachael's blog for patrons also introduced me to Tiago Forte's projects/areas distinction!) I have 7 domains corresponding to a life aspect: self (mind/body/wellness), others/the world (existence as a social creature), creativity, learning (theoretical, as opposed to practice-based), home, leisure, and money. They are named after demons, because I'm edgy like that. Now they have actual geographical spaces in my imagination. 
+I *knew* I wanted to incorporate life domains into this system. My own are based on Rachael Stephen's [witchier implementation, the constellation system](https://www.rachaelstephen.com/constellation). (Rachael's blog for patrons also introduced me to Tiago Forte's projects/areas distinction!) I have 7 domains corresponding to a life aspect: self (mind/body/wellness), others/the world (existence as a social creature), creativity, learning (theoretical, as opposed to practice-based), home, leisure, and money. Now they have actual geographical spaces in my imagination. 
 
 #### getting to be all the barbies.
 A lot of open worlds don't have, like... hard cutoffs, closing you off from a part of the world. Some do, but you will generally always be able to 100% complete and do everything that is available to you. This is quite exciting to me, because, as above, I experience not being able to do *absolutely everything* I want to do in life as an eternal loss. But, to a point anyway, time is limitless in an open world, and exploration of every nook and cranny is encouraged. We want to harness this encouragement to *seize the moment*, instead of remaining stuck and scared.
@@ -125,15 +127,11 @@ The paper prototype took... a lot of repetitive setup. It sort of reminded me of
 
 ## the final system: a continued work in progress.
 
-!["The zoomed out version of my canvas."](/canvas-overview.png)
-
 My system is currently a bunch of Obsidian notes that are all embedded on a single canvas. I can start off at the centre, roll for an area if I can't decide what to do, and then zoom in on the section.
 
 In the back of the system is the 'undreamt dreams'. These are inaccessible and not directly visible on the canvas on purpose: they are a rolling inventory of future ideas, tasks and projects. I am very serious about not accessing or doing these until I have a free spot on the canvas. This turns my 'now/not now' time perception to an advantage, clearing my head of the 'not now' until it's time to pick one (which I may also randomise, if I struggle to pick).
 
 Borrowed from struthless' board, there is a finite amount of space. I decided that each subsection of the map should only have one area of focus at a time. 
-
-!["An example of map subsections, like for belphegor, the rest domain. which has subsections like 'the cinema', 'the reading nook', 'the concert hall'.](/belphegor.png)
 
 The act of building this system has been therapeutic. I feel much less terrified by the prospect of losing everything. My life feels more holistic; I feel like I am paying attention to the whole because I am not utterly paralysed by decision all day. In that way, it is functioning in a more 'analogue' capacity. It has led to surprises, like picking up books I forgot about, enjoying the act of walking around my town, taking up exercise again, and... also writing this blog post, which is one of the tasks under 'amduscias', the creative domain.
 
